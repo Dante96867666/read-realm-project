@@ -61,7 +61,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				library: {
+					navy: 'hsl(var(--library-navy))',
+					gold: 'hsl(var(--library-gold))',
+					light: 'hsl(var(--library-light))',
+					muted: 'hsl(var(--library-muted))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				elegant: 'var(--shadow-elegant)',
+				card: 'var(--shadow-card)',
+				glow: 'var(--shadow-glow)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
